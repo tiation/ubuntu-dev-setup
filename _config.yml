@@ -1,0 +1,60 @@
+title: Ubuntu Development Environment Setup
+description: 🚀 Automated Ubuntu Development Environment Setup Scripts - Comprehensive collection of modular scripts to set up a complete development environment on Ubuntu systems
+baseurl: "/ubuntu-dev-setup"
+url: "https://tiation.github.io"
+
+# Theme configuration
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Navigation
+header_pages:
+  - index.md
+  - quick-start.md
+  - commands.md
+  - tips.md
+  - troubleshooting.md
+  - about.md
+
+# Author
+author:
+  name: Tiation
+  email: your-email@example.com
+
+# GitHub
+github_username: tiation
+repository: ubuntu-dev-setup
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - scripts/
+  - LICENSE
+  - README.md
+  - CONTRIBUTING.md
+  - FUNCTIONS_REFERENCE.md
+  - REPOSITORY_GRAPH.md
+  - REPOSITORY_INDEX.md
+  - SCRIPT_ANALYSIS.md
+
+# Custom variables
+custom:
+  theme_color: "#00ffff"
+  gradient: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)"
+  accent_color: "#00ffff"

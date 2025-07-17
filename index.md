@@ -1,71 +1,147 @@
-🎉 Success! Ubuntu Development Setup Repository Created
+---
+layout: default
+title: Ubuntu Development Environment Setup
+---
 
-I've successfully created and deployed the Ubuntu development setup repository to GitHub at **https://github.com/tiation/ubuntu-dev-setup**.
+<div class="hero">
+  <div class="wrapper">
+    <h1>🚀 Ubuntu Dev Setup</h1>
+    <p class="hero-subtitle">Automated Ubuntu Development Environment Setup Scripts</p>
+    <div class="hero-buttons">
+      <a href="https://github.com/tiation/ubuntu-dev-setup" class="btn">View on GitHub</a>
+      <a href="quick-start.html" class="btn">Quick Start</a>
+      <a href="commands.html" class="btn">Commands</a>
+    </div>
+  </div>
+</div>
 
-📋 What's Included
+<div class="wrapper">
+  <div class="grid">
+    <div class="card">
+      <div class="card-header">
+        <span class="card-icon">⚡</span>
+        <h3 class="card-title">Quick Setup</h3>
+      </div>
+      <p>Get your Ubuntu development environment up and running in minutes with our automated scripts.</p>
+      <a href="quick-start.html" class="btn-primary">Get Started</a>
+    </div>
 
-📄 Documentation Files:
-•  README.md - Comprehensive overview and quick start guide
-•  SCRIPT_ANALYSIS.md - Detailed script analysis and categorization
-•  CONTRIBUTING.md - Contribution guidelines and standards
-•  FUNCTIONS_REFERENCE.md - Complete function documentation
-•  docs/ubuntu_setup.md - Detailed setup and usage guide
-•  LICENSE - MIT license
-•  .gitignore - Comprehensive ignore patterns
+    <div class="card">
+      <div class="card-header">
+        <span class="card-icon">🛠️</span>
+        <h3 class="card-title">Essential Commands</h3>
+      </div>
+      <p>Master Ubuntu with our curated collection of essential commands and utilities.</p>
+      <a href="commands.html" class="btn-primary">View Commands</a>
+    </div>
 
-🔧 Setup Scripts:
-•  scripts/setup_master.sh - Master orchestration script with interactive menu
-•  scripts/01_system_prefs.sh - System preferences and tweaks
-•  scripts/02_package_mgmt.sh - Package management (APT, Snap, Flatpak)
-•  scripts/03_dev_env.sh - Development environment setup
-•  scripts/04_mobile_dev.sh - Mobile development tools
-•  scripts/05_cloud_devops.sh - Cloud & DevOps tools (placeholder)
-•  scripts/06_workspace_setup.sh - Workspace organization
-•  scripts/07_startup_launcher.sh - Application launcher (placeholder)
+    <div class="card">
+      <div class="card-header">
+        <span class="card-icon">💡</span>
+        <h3 class="card-title">Pro Tips</h3>
+      </div>
+      <p>Discover expert tips and tricks to boost your Ubuntu development productivity.</p>
+      <a href="tips.html" class="btn-primary">Learn Tips</a>
+    </div>
+  </div>
 
-🚀 Key Features
+  ## 🎯 What This Project Does
 
-1. Modular Design - Each script handles specific functionality
-2. Interactive & Auto Modes - Run with prompts or fully automated
-3. Error Handling - Comprehensive error checking and recovery
-4. Progress Tracking - Success/failure reporting with completion summary
-5. Idempotent Operations - Safe to run multiple times
-6. Ubuntu-Specific - Tailored for Ubuntu 20.04 LTS and later
-7. Comprehensive Documentation - Detailed guides and references
+  This comprehensive collection of modular scripts sets up a complete development environment on Ubuntu systems, perfect for developers who want to quickly bootstrap their Ubuntu workstation.
 
-📦 Package Management
+  ### Core Features
 
-•  APT packages - Development tools, utilities, system packages
-•  Snap packages - Development applications, IDEs
-•  Flatpak packages - GUI applications, sandboxed apps
-•  Additional repositories - Google Chrome, Microsoft, Docker
+  - **System Configuration**: Ubuntu system preferences and tweaks
+  - **Package Management**: APT packages, Snap packages, and Flatpak applications
+  - **Development Environment**: Git, SSH, shell configuration (Zsh + Oh My Zsh)
+  - **Runtime Setup**: Node.js, Python, language-specific environments
+  - **Mobile Development**: Flutter, Android SDK setup
+  - **Container & Kubernetes**: Docker, Kubernetes tools
+  - **Directory Structure**: Organized development workspace
+  - **Application Launcher**: GUI app and service startup automation
 
-🛠️ Development Environment
+  ## 🚀 One-Line Install
 
-•  Git configuration with aliases and SSH keys
-•  Zsh + Oh My Zsh with plugins and themes
-•  Node.js + NVM with global packages
-•  Python virtual environments with AI/ML packages
-•  Shell aliases and functions for productivity
-•  Workspace organization with structured directories
+  <div class="command-block">
+    <div class="command-title">Install Everything</div>
+    <code>curl -fsSL https://raw.githubusercontent.com/tiation/ubuntu-dev-setup/main/install.sh | bash</code>
+  </div>
 
-📱 Mobile Development
+  ## 📦 What Gets Installed
 
-•  Flutter SDK with Linux desktop support
-•  Android Studio and SDK tools
-•  Java Development Kit (OpenJDK 11)
-•  React Native CLI for cross-platform development
-•  Ionic and Cordova for hybrid apps
+  <div class="grid">
+    <div class="card">
+      <div class="card-header">
+        <span class="card-icon">💻</span>
+        <h3 class="card-title">Development Tools</h3>
+      </div>
+      <ul>
+        <li>Git, GitHub CLI</li>
+        <li>VS Code, Vim/Neovim</li>
+        <li>Docker, Docker Compose</li>
+        <li>Node.js, Python, Java</li>
+      </ul>
+    </div>
 
-🏗️ Workspace Structure
+    <div class="card">
+      <div class="card-header">
+        <span class="card-icon">🌐</span>
+        <h3 class="card-title">Web Development</h3>
+      </div>
+      <ul>
+        <li>Modern browsers</li>
+        <li>Frontend frameworks</li>
+        <li>API testing tools</li>
+        <li>Database clients</li>
+      </ul>
+    </div>
 
-Based on the recommended workspace organization:
-🔗 Repository Links
+    <div class="card">
+      <div class="card-header">
+        <span class="card-icon">📱</span>
+        <h3 class="card-title">Mobile Development</h3>
+      </div>
+      <ul>
+        <li>Flutter SDK</li>
+        <li>Android Studio</li>
+        <li>Android SDK tools</li>
+        <li>Mobile emulators</li>
+      </ul>
+    </div>
+  </div>
 
-•  GitHub Repository: https://github.com/tiation/ubuntu-dev-setup
-•  Clone Command: git clone https://github.com/tiation/ubuntu-dev-setup.git
-•  Quick Start: ./scripts/setup_master.sh --auto
+  <div class="tip">
+    <div class="tip-title">💡 Pro Tip</div>
+    Each script is modular and can be run independently. You can customize which components to install by editing the script variables or running individual modules.
+  </div>
 
-The repository is now live, fully documented, and ready for use! Users can clone it and run the setup scripts to quickly bootstrap their Ubuntu development environment.
+  ## 🔧 Customization Options
 
-<report_task_status status="completed" />
+  The setup scripts are designed to be flexible and customizable:
+
+  1. **Edit variables** at the top of each script to customize packages
+  2. **Comment out** sections you don't need
+  3. **Add your own** package lists or configurations
+  4. **Run selectively** with individual module scripts
+
+  ## 📖 Documentation
+
+  - [Quick Start Guide](quick-start.html) - Get up and running fast
+  - [Essential Commands](commands.html) - Must-know Ubuntu commands
+  - [Pro Tips & Tricks](tips.html) - Boost your productivity
+  - [Troubleshooting](troubleshooting.html) - Common issues and solutions
+
+  ## 🤝 Contributing
+
+  We welcome contributions! Check out our [GitHub repository](https://github.com/tiation/ubuntu-dev-setup) to:
+
+  - Report bugs or request features
+  - Submit pull requests
+  - Improve documentation
+  - Share your setup customizations
+
+  <div class="info">
+    <div class="info-title">🔒 Security First</div>
+    Our scripts use official package repositories, generate secure SSH keys, handle environment variables safely, and never store credentials in scripts.
+  </div>
+</div>

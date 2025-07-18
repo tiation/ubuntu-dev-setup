@@ -1,15 +1,20 @@
-# Project Name
+# 🐧 Ubuntu Dev Setup
 
 <!-- Hero Image with Dark Neon Theme -->
 <div align="center">
-  <img src=".screenshots/hero-banner.png" alt="Project Hero Banner" width="100%">
+  <img src=".screenshots/hero-banner.png" alt="Ubuntu Dev Setup - Enterprise Development Environment" width="100%">
 </div>
 
 <div align="center">
   
+[![Build Status](https://img.shields.io/badge/Build-Passing-00FF88?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/TiaAstor/ubuntu-dev-setup/actions)
+[![Ubuntu](https://img.shields.io/badge/Ubuntu-Supported-00D9FF?style=for-the-badge&logo=ubuntu&logoColor=white)](https://ubuntu.com)
+[![Automation](https://img.shields.io/badge/Automation-Complete-00FF88?style=for-the-badge&logo=ansible&logoColor=white)](https://github.com/TiaAstor/ubuntu-dev-setup)
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-00D9FF?style=for-the-badge&logo=github&logoColor=white)](https://tiaastor.github.io/ubuntu-dev-setup)
 [![Documentation](https://img.shields.io/badge/Documentation-Complete-00FF88?style=for-the-badge&logo=gitbook&logoColor=white)](https://github.com/TiaAstor/ubuntu-dev-setup/wiki)
 [![License](https://img.shields.io/badge/License-MIT-FF0080?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](LICENSE)
+[![Shell](https://img.shields.io/badge/Shell-Bash/ZSH-FFE500?style=for-the-badge&logo=gnu-bash&logoColor=white)](https://github.com/TiaAstor/ubuntu-dev-setup)
+[![Tested](https://img.shields.io/badge/Tested-Production-00FF88?style=for-the-badge&logo=checkmarx&logoColor=white)](https://github.com/TiaAstor/ubuntu-dev-setup)
 
 </div>
 
